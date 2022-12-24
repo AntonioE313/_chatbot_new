@@ -22,6 +22,7 @@ class ActionProvider {
 
   setChatbotMessage = (message) => {
        this.setState( (state) => ({...state, messages: [...state.messages, message] }));
+      console.log('HELLO THIS IS ME LOGGING SOME STUFF');
   }
 
 }
